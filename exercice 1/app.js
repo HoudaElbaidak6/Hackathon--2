@@ -29,7 +29,7 @@ function minCoins(nombre) {
   let res5 = parseInt(modulo4 / 1);
   let modulo5 = parseInt(modulo4 % 1);
 
-  if (res1 != 0 || modulo1 == 0) {
+  if (res1 != 0) {
     p[0].textContent = `You need ${res1} bills of 20`;
   }
   if (res2 != 0) {
